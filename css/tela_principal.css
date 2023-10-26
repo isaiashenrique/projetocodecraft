@@ -54,11 +54,12 @@ body {
 
 .navegacao ul {
     padding: 0;
+    margin-bottom: 0;
 }
 
 .navegacao li {
     display: inline-flex;
-    margin-top: 2%;
+    margin-top: 3%;
     padding: 8px;
 }
 
