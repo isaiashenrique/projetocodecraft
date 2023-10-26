@@ -190,7 +190,8 @@ ul {
 }
 
 .usuario li .fixed {
-    background-color: #fff;
+    border-bottom: 2px solid #000;
+    background-color: #f8f8ff;
     color: #000;
    
 }
@@ -204,6 +205,7 @@ ul {
     width: 20px;
     align-items: center;
     margin-right: 8px;
+    padding-bottom: 4px;
     
 }
 
