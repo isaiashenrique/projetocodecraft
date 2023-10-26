@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f8f8ff;
+}
+
+#nav {
+    background-color: #6b2fdb;
+    box-shadow: 0px 2px 5px #000000;
+    text-align: left;
+    width: 100%;
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 89%;
+    z-index: 999;
+}
+
+#icone_01 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#nome_site{
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 26%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: #fff;
+}
+
+/* logo do site */
+
+.logo {
+    margin: 0;
+    width: 20%;
+}
+
+/* css da navegação do site */
+
+.navegacao {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navegacao ul {
+    padding: 0;
+}
+
+.navegacao li {
+    display: inline-flex;
+    margin-top: 2%;
+    padding: 8px;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #f8f8ff;
+    font-weight: bold;
+    padding: 8px;    
+    border-radius: 8px;
+}
+
+.navegacao a:hover {
+    border-bottom: 2px solid #000;
+    background-color: #f8f8ff;
+    color: #000;
+    
+    transition: 0.5s;
+}
+
+
+
+#demo {
+    margin-top: 6%;
+}
+
+
+/*       carrossel             */
+
+
+
+/* introdução do CPaas pagina principal */
+.into_cpaas{
+    margin-top: 10%;
+}
+
+.titulo_cpaas h1{
+    text-align: center;
+    font-weight: bold;
+    background-color: #6b2fdb;
+    color: #fff;
+    border-radius: 50px 0px 50px;
+    padding: 1%;
+    box-shadow: 2px 0px 10px #000000;
+}
+
+.titulo_cpaas h4 {
+    font-weight: bold;
+    margin-top: 5%;
+}
+.titulo_cpaas h5 {
+    font-weight: bold;
+}
+.titulo_cpaas p {
+    margin-top: 5%;
+    font-size: 18px;  
+    line-height: 26pt;
+}
+
+.titulo_cpaas_trans h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #6b2fdb;
+    color: #fff;
+    border-radius: 50px 0px 50px;
+    padding: 1.5%;
+    box-shadow: 2px 0px 10px #000000;
+}
+
+.titulo_cpaas_trans h4{
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.titulo_cpaas_trans h5 {
+    font-weight: bold;
+}
+
+.titulo_cpaas_trans p {
+    margin-top: 5%;
+    font-size: 22px;  
+    line-height: 26pt;
+}
+
+
+
+/* paragrafo da transformação digital */
+
+.p_group {
+    display: inline;
+    padding:  5px 15px 5px;
+    background-color: #6b2fdb;
+    margin-right: 2%;
+   border-radius: 100%;
+}
+
+
+
+.bilhoes{
+    font-size: 25px;
+}
+
+
+/* usos da plataforma */
+
+.divisao {
+    background-color: #6b2fdb;
+}
+
+.divisao h1 {
+    font-weight: bold;
+}
+.uso_h4_subtitulos{
+    color: #6b2fdb;
+    font-weight: bold;
+}
+
+.p_vantagem{
+    font-weight: bold;
+    font-size: 20px;
+}
