@@ -175,13 +175,14 @@ body {
 .coluna01{
     background-color: #6b2fdb;
     text-align: center;
+    height: 100vh;
 }
 
 .coluna02{
     background-color: #f8f8ff;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 800px;
+    height: 100vh;
 }
 
 .coluna02::-webkit-scrollbar {
