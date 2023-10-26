@@ -49,6 +49,7 @@ body {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    display: inline-flex;
 }
 
 .navegacao ul {
@@ -180,3 +181,23 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+
+/* css da parte de usuario da tela principal */
+
+ul {
+    margin: none;
+}
+
+.usuario li .fixed {
+    background-color: #fff;
+    color: #000;
+   
+}
+
+
+.usuario{
+    margin-top: 10.5px;
+}
+
+
