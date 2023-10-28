@@ -80,16 +80,12 @@ body {
     transition: 0.5s;
 }
 
-
-
 #demo {
     margin-top: 6%;
 }
 
 
 /*       carrossel             */
-
-
 
 /* introdução do CPaas pagina principal */
 .into_cpaas{
@@ -145,8 +141,6 @@ body {
     line-height: 26pt;
 }
 
-
-
 /* paragrafo da transformação digital */
 
 .p_group {
@@ -157,12 +151,9 @@ body {
    border-radius: 100%;
 }
 
-
-
 .bilhoes{
     font-size: 25px;
 }
-
 
 /* usos da plataforma */
 
@@ -183,7 +174,6 @@ body {
     font-size: 20px;
 }
 
-
 /* css da parte de usuario da tela principal */
 
 ul {
@@ -197,7 +187,6 @@ ul {
    
 }
 
-
 .usuario{
     margin-top: 10.5px;
 }
@@ -209,10 +198,6 @@ ul {
     padding-bottom: 4px;
     
 }
-
-
-
-
 
 /*  introdução do 2fa da tela principal  */
 
