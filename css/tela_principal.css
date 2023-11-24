@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body {
     background-color: #f8f8ff;
@@ -204,4 +205,34 @@ ul {
 .imagem-2fa {
     margin-top: 30%;
     margin-left: 15%;
+}
+
+
+.img-celular {
+    text-align: center;
+}
+
+.cf-mascara {
+    margin-right: 15%;
+}
+
+.row-quemusa-mascara {
+    text-align: center;
+}
+.font-color{
+    color: #6b2fdb;
+}
+.imagem-pc{
+    margin-top: 20%;
+    width: 50vh;
+}
+
+.recursos-p li {
+    font-size: 22px;
+    margin-top: 22px;
+
+}
+
+.img-verified {
+    margin-top: 10%;
 }
