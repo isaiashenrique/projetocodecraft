@@ -3,12 +3,27 @@
     margin: 0 auto;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     
 }
 body {
-    background-color: #f8f8ff;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
 }
 
+img {
+    border-radius: 20px;
+}
+
+.dark-mode {
+    background-color: #212529;
+    color: white;
+}
+  
+  
 #nav {
     background-color: #6b2fdb;
     box-shadow: 0px 2px 5px #000000;
@@ -86,11 +101,26 @@ body {
 }
 
 
+.botao-dark {
+    width: 60%;
+    padding-top: 45%;
+    cursor: pointer;
+}
+
+
+
+
+
+
 /*       carrossel             */
 
 /* introdução do CPaas pagina principal */
 .into_cpaas{
     margin-top: 10%;
+}
+
+.titulo_cpaas {
+    font-size: 16px;
 }
 
 .titulo_cpaas h1{
@@ -138,7 +168,6 @@ body {
 
 .titulo_cpaas_trans p {
     margin-top: 5%;
-    font-size: 22px;  
     line-height: 26pt;
 }
 
@@ -235,4 +264,36 @@ ul {
 
 .img-verified {
     margin-top: 10%;
+}
+
+
+
+#btntop {
+    display: none;
+}
+
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+.img-topo {
+    width: 60px;
+    padding-top: 20%;
+}
+
+.telecall-logo {
+    margin-top: 5%;
+}
+
+.email {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.rodape {
+    background-color: #6b2fdb;
 }
