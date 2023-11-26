@@ -1,5 +1,5 @@
 window.onload = function() {
-    var elementBody = document.querySelector('p');
+    var elementBody = document.querySelector('*');
     var elementBtnIncreaseFont = document.getElementById('increase-font');
     var elementBtnDecreaseFont = document.getElementById('decrease-font');
     // Padrão de tamanho, equivale a 100% do valor definido no Body
