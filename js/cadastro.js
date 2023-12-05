@@ -1,14 +1,47 @@
-const tel = document.getElementById('tel') // Seletor do campo de telefone
+$(document).ready(function(){
+    $('body').on('focus', '#tel', function(){
+        var maskBehavior = function (val) {
+            return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+        },
+        options = {
+            onKeyPress: function(val, e, field, options) {
+                field.mask(maskBehavior.apply({}, arguments), options);
 
-tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value)) // Dispara quando digitado no campo
-tel.addEventListener('change', (e) => mascaraTelefone(e.target.value)) // Dispara quando autocompletado o campo
+                if(field[0].value.length >= 14){
+                    var val = field[0].value.replace(/\D/g, '');
+                    if(/\d\d(\d)\1{7,8}/.test(val)){
+                        field[0].value = '';
+                        alert('Telefone Invalido');
+                    }
+                }
+            }
+        };
+        $(this).mask(maskBehavior, options);
+    });
+});
 
-const mascaraTelefone = (valor) => {
-    valor = valor.replace(/\D/g, "")
-    valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
-    valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
-    tel.value = valor // Insere o(s) valor(es) no campo
-}
+$(document).ready(function(){
+    $('body').on('focus', '#phone', function(){
+        var maskBehavior = function (val) {
+            return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+        },
+        options = {
+            onKeyPress: function(val, e, field, options) {
+                field.mask(maskBehavior.apply({}, arguments), options);
+
+                if(field[0].value.length >= 14){
+                    var val = field[0].value.replace(/\D/g, '');
+                    if(/\d\d(\d)\1{7,8}/.test(val)){
+                        field[0].value = '';
+                        alert('Telefone Invalido');
+                    }
+                }
+            }
+        };
+        $(this).mask(maskBehavior, options);
+    });
+});
+
 
 
 
@@ -28,7 +61,9 @@ function mascara(i){
  }
 
 
- // preenchimento cep 
+ 
+
+
 
 
 
