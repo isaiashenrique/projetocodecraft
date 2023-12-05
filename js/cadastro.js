@@ -23,7 +23,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('body').on('focus', '#phone', function(){
         var maskBehavior = function (val) {
-            return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            return val.replace(/\D/g, '').length === 11 ? '(00) 0000-0000' : '(00) 0000-0000';
         },
         options = {
             onKeyPress: function(val, e, field, options) {
