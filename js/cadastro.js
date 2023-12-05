@@ -64,6 +64,20 @@ function mascara(i){
 
  // permitindo apenas letras campo usuario 
 
+ $('#nome').keypress(function(e) {
+    var keyCode = (e.keyCode ? e.keyCode : e.which); // Variar a chamada do keyCode de acordo com o ambiente.
+    if (keyCode > 47 && keyCode < 58) {
+      e.preventDefault();
+    }
+});
+
+$('#nome_materno').keypress(function(e) {
+    var keyCode = (e.keyCode ? e.keyCode : e.which); // Variar a chamada do keyCode de acordo com o ambiente.
+    if (keyCode > 47 && keyCode < 58) {
+      e.preventDefault();
+    }
+});
+
 
 
 $('#usuario').keypress(function(e) {
