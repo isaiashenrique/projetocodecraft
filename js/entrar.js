@@ -37,7 +37,7 @@ function entrar(){
 })
    
   
-  window.location.href = 'inicial.html'
+  window.location.href = 'https://projetocodecraft.vercel.app/inicial.html'
     
   let mathRandom = Math.random().toString(16).substr(2)
   let token = mathRandom + mathRandom
