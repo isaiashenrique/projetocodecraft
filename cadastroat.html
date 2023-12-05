@@ -22,7 +22,7 @@
                     
                     <h1>Cadastrar</h1>
         
-                    <form class="form" action="#" method="post">
+                    <form class="form" action="." method="get">
         
         
                         <div id="separar_endereço">
@@ -75,29 +75,29 @@
                         </div>
                         <div class="form_grupo">
                             <label for="cep" class="form_label">Cep:</label><br>
-                            <input type="tel" class="form-control" id="cep" name="cep" maxlength="8" placeholder="Digite seu cep"  pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>
+                            <input onblur="pesquisacep(this.value);" type="tel" class="form-control" id="cep" name="cep" maxlength="9" placeholder="Digite seu cep"  >
                         </div>
         
                         <div class="form_grupo">
-                            <label for="endereço" class="form_label">Endereço:</label><br>
-                            <input type="text" class="form-control" id="endereço" name="Rua"  placeholder="Nome da Rua"  pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>
+                            <label for="endereço" class="form_label">Rua:</label><br>
+                            <input type="text" class="form-control" id="rua" name="Rua"  placeholder="Nome da Rua"   >
                         </div>
         
                         <div class="form_grupo">
                             <label for="num_casa" class="form_label">Número:</label><br>
-                            <input type="number" class="form-control" id="num_casa" name="num_casa" maxlength="10" placeholder="Número da residência"   required>
+                            <input type="tel" class="form-control" id="num_casa" name="num_casa" maxlength="10" placeholder="Número da residência"   required>
                         </div>
                         <div class="form_grupo">
                             <label for="bairro" class="form_label">Bairro:</label><br>
-                            <input type="text" class="form-control" id="bairro" name="bairro"  placeholder="Digite o Bairro"   required>
+                            <input type="text" class="form-control" id="bairro" name="bairro"  placeholder="Digite o Bairro"   >
                         </div>
                         <div class="form_grupo">
                             <label for="cidade" class="form_label">Cidade:</label><br>
-                            <input type="text" class="form-control" id="cidade" name="cidade"  placeholder="Digite a cidade"   required>
+                            <input type="text" class="form-control" id="cidade" name="cidade"  placeholder="Digite a cidade"  >
                         </div>
                         <div class="form_grupo">
                             <label for="uf" class="form_label">UF:</label><br>
-                            <input type="text" class="form-control" id="uf" name="uf"  placeholder="UF"   required>
+                            <input type="text" class="form-control" id="uf" name="estado"  placeholder="UF" >
                         </div>
         
                         <div id="separar_endereço">
@@ -106,7 +106,7 @@
         
                         <div class="form_grupo">
                             <label for="login" class="form_label">Usuário</label><br>
-                            <input type="login" name="usuario" class="form_input" id="login"  maxlength="6" placeholder="Digite seu login com 6 caracteres alfabéticos" required>
+                            <input type="login" name="usuario" class="form_input" id="usuario"  maxlength="6" placeholder="Digite seu login com 6 caracteres alfabéticos" required>
                         </div>
         
                         <div class="form_grupo">
