@@ -34,19 +34,17 @@ function entrar(){
       }
       
     }
-})
-   
+  })
   
-  window.location.href = 'https://projetocodecraft.vercel.app/inicial.html'
+  window.location.href = 'inicial.html'
     
   let mathRandom = Math.random().toString(16).substr(2)
   let token = mathRandom + mathRandom
     
   localStorage.setItem('token', token)
   localStorage.setItem('userLogado', JSON.stringify(userValid))
-} 
   
-
+}
 
 
 
