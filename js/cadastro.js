@@ -58,13 +58,13 @@ function mascara(i){
     if (v.length == 3 || v.length == 7) i.value += ".";
     if (v.length == 11) i.value += "-";
  
- }
+}
 
 
 
- // permitindo apenas letras campo usuario 
+// permitindo apenas letras campo usuario 
 
- $('#nome').keypress(function(e) {
+$('#nome').keypress(function(e) {
     var keyCode = (e.keyCode ? e.keyCode : e.which); // Variar a chamada do keyCode de acordo com o ambiente.
     if (keyCode > 47 && keyCode < 58) {
       e.preventDefault();
@@ -85,7 +85,7 @@ $('#usuario').keypress(function(e) {
     if (keyCode > 47 && keyCode < 58) {
       e.preventDefault();
     }
-  });
+});
 
 
 // permição apenas letras senha 
@@ -202,4 +202,3 @@ else {
 
 
 
- 
